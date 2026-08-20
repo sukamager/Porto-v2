@@ -1,0 +1,63 @@
+.thanks-page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/img/background.jpg');
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.center-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40px);
+}
+
+.thanks-container {
+  text-align: center;
+  background: rgba(49, 47, 47, 0.85);
+  padding: 40px;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thanks-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgb(50, 132, 255);
+}
+
+.thanks-container h1 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.thanks-container p {
+  color: #ddd;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.thanks-container a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.thanks-container a:hover {
+  background: #357ab8;
+}

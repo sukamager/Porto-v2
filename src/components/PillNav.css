@@ -1,0 +1,62 @@
+.pill-nav {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  max-width: calc(100vw - 24px);
+  overflow-x: auto;
+  scrollbar-width: none;
+  z-index: 1000;
+  transition: box-shadow 0.3s ease;
+}
+
+.pill-nav:hover {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.15),
+    0 0 20px rgba(50, 132, 255, 0.12);
+}
+
+.pill-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.pill-nav a {
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #bbb;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+  position: relative;
+}
+
+.pill-nav a:hover {
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.pill-nav a.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .pill-nav {
+    top: 10px;
+    padding: 4px;
+    gap: 2px;
+  }
+  .pill-nav a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
