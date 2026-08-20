@@ -1,49 +1,99 @@
-# Portofolio Sukamager — React Version
+# 👋 Halo, Saya Ilul
 
-Hasil konversi dari HTML/CSS/JS statis menjadi React (Vite + React Router).
+Selamat datang di repository **Portofolio Sukamager**.
 
-## Struktur halaman → routing
+Website ini merupakan portofolio pribadi yang saya buat untuk memperkenalkan diri, menampilkan kemampuan, pengalaman belajar, serta berbagai project yang pernah saya kerjakan di bidang **Web Development dan Teknologi Informasi**.
 
-| Halaman asli | Route React |
-|---|---|
-| `index.html` (splash screen) | `/` |
-| `home.html` | `/home` |
-| `about.html` | `/about` |
-| `show.html` | `/show` |
-| `project.html` | `/project` |
-| `contact.html` | `/contact` |
-| `thanks.html` | `/thanks` |
+Saya memiliki ketertarikan pada dunia teknologi, khususnya dalam pengembangan website dan pemrograman. Melalui berbagai project yang saya kerjakan, saya terus belajar memahami bagaimana sebuah website dirancang, dikembangkan, dan dibuat agar dapat digunakan dengan baik.
 
-## Cara menjalankan
+---
 
-```bash
-npm install
-npm run dev
-```
+## 🚀 Tentang Project
 
-Lalu buka `http://localhost:5173`.
+**Portofolio Sukamager** adalah website personal yang dibuat menggunakan **React.js** dengan **Vite** dan **React Router**.
 
-## Gambar / Assets
+Website ini berisi beberapa halaman utama:
 
-Semua gambar dari folder `img/` di project HTML lama (background.jpg, logo1.jpeg,
-logo2.jpeg, logo-wayang.png, project0.png ... project8.png, show.jpg ... show7.jpeg,
-favicon.ico) **harus kamu copy ke folder `public/img/`** di project React ini,
-karena file gambar asli tidak ikut ter-upload. Path di kode (`/img/namafile`) sudah
-disesuaikan supaya otomatis terbaca dari folder `public/img/`.
+* 🏠 **Home** — Perkenalan singkat dan informasi utama.
+* 👤 **About** — Informasi mengenai diri saya dan kemampuan yang saya pelajari.
+* 🎬 **Show** — Menampilkan karya atau aktivitas yang ingin saya tunjukkan.
+* 💻 **Project** — Kumpulan project yang pernah saya buat.
+* 📩 **Contact** — Halaman untuk menghubungi saya.
+* 🎉 **Thanks** — Halaman setelah pengiriman pesan.
 
-## Catatan penting
+---
 
-- **Font Awesome** & **Google Fonts (Poppins)** dimuat lewat CDN di `index.html`, sama seperti versi asli.
-- **AOS** (animasi scroll) dipasang lewat package npm `aos` dan di-`init()` di setiap halaman lewat `useEffect`, menggantikan `<script src="aos.js">`.
-- Efek **typewriter** di halaman Home ditulis ulang pakai `useState`/`useEffect`, tidak lagi manipulasi DOM langsung.
-- Efek **particle & code rain** di splash screen (`index.html` asli) ditulis ulang dengan `useRef` + `useEffect`.
-- Form di halaman Contact masih memakai `formsubmit.co` (submit biasa, redirect ke `_next`). Ganti value `_next` di `src/pages/Contact.jsx` ke domain hasil deploy React app kamu (misalnya `https://domainmu.com/thanks`).
-- Navigasi antar-halaman pakai `react-router-dom` (`<NavLink>`), termasuk highlight menu aktif otomatis (menggantikan class `active` manual).
+## 🛠️ Teknologi yang Digunakan
 
-## Build untuk production
+Beberapa teknologi yang digunakan dalam pembuatan website ini:
 
-```bash
-npm run build
-```
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **React.js**
+* **Vite**
+* **React Router**
+* **AOS (Animate On Scroll)**
+* **Font Awesome**
+* **Google Fonts**
 
-Hasil build ada di folder `dist/`, siap di-deploy ke Vercel, Netlify, GitHub Pages, dsb.
+---
+
+## 🎯 Tujuan
+
+Website ini dibuat bukan hanya sebagai tempat untuk menampilkan hasil project, tetapi juga sebagai bagian dari proses saya dalam **belajar dan berkembang di bidang teknologi**.
+
+Setiap project yang saya kerjakan menjadi kesempatan untuk mempelajari hal baru, meningkatkan kemampuan programming, serta memahami bagaimana sebuah aplikasi atau website dikembangkan dari awal hingga menjadi sesuatu yang dapat digunakan.
+
+---
+
+## 📂 Isi Portfolio
+
+Di dalam portfolio ini terdapat berbagai project yang saya kerjakan selama proses belajar.
+
+Setiap project memiliki tujuan dan tantangan yang berbeda. Beberapa di antaranya dibuat untuk latihan, sementara project lainnya dibuat sebagai implementasi dari kemampuan yang telah saya pelajari.
+
+Saya akan terus memperbarui portfolio ini seiring bertambahnya pengalaman dan project yang saya kerjakan.
+
+---
+
+## 📚 Currently Learning
+
+Saat ini saya terus mengembangkan kemampuan dalam beberapa bidang, terutama:
+
+* Web Development
+* React.js
+* JavaScript
+* Front-End Development
+* UI/UX dasar
+* Git & GitHub
+* Teknologi jaringan dan sistem komputer
+
+Saya percaya bahwa kemampuan di bidang teknologi tidak hanya dibangun dari teori, tetapi juga dari **praktik, eksperimen, dan konsistensi dalam membuat project**.
+
+---
+
+## 📈 Goals
+
+Saya ingin terus meningkatkan kemampuan programming dan web development dengan membuat lebih banyak project nyata.
+
+Beberapa tujuan saya ke depan:
+
+* Meningkatkan kemampuan React dan JavaScript
+* Memahami pengembangan aplikasi secara lebih mendalam
+* Membuat project yang lebih kompleks
+* Memperbaiki kemampuan UI/UX
+* Mempelajari teknologi baru
+* Membangun portfolio yang lebih baik
+
+---
+
+## 📫 Contact
+
+Jika ingin mengetahui lebih banyak tentang saya atau project yang saya kerjakan, silakan menghubungi saya melalui halaman **Contact** pada website portfolio ini.
+
+---
+
+> **"Keep learning, keep building, and keep improving."**
+
+© 2026 Sukamager. All Rights Reserved.
